@@ -1,0 +1,43 @@
+-> divide into block
+    - header
+    - main
+    - footer
+
+-> give them 
+    - height
+    - border
+    - background-color
+
+
+-> Parent div ko height kitni bhi di ho agar child tag me heigh 100% hi aaygei
+
+-> agar child tag hai to parent mese heigh nikal kar child me dena 
+
+-> Floating rule: if 1 sibillinge has assign floating propety and another has not then it will be disturb
+
+->  On-Hover Box
+
+
+    <li>
+        More
+        <ul class="nav">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </li>
+
+
+
+    li{
+        position: relative;
+    }
+
+    ul{
+        width,
+        height,
+        background,
+        position: absolute;
+        top,
+        z-index: 1;
+    }
